@@ -1,0 +1,192 @@
+body {
+	font-family: arial;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	display:flex;
+	align-items: center;
+	font-size: 40px;
+	text-transform: lowercase;
+	color: darkblue;
+	margin-left: 30px;
+}
+
+.right {
+	width: 30%;
+	padding: 10px;
+	margin: 0 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right p {
+	color: lightgray;
+}
+
+.right button {
+	padding: 10px;
+	color: darkblue;
+	background-color: white;
+	border: 2px solid lightgray;
+}
+
+#log-in {
+	display: flex;
+	align-items: center;
+	color: black;
+	text-decoration: none;
+}
+
+.open-banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: darkblue;
+	padding: 8%;
+	color: white;
+}
+
+.open-banner h1{
+	font-family: times new roman;
+	font-size: 50px;
+	margin: -3px 0;
+	width: 40%;
+}
+
+.open-banner h4{
+	font-weight: normal;
+	font-size: 120%;
+	width: 40%;
+}
+
+.open-banner button{
+	width: 20%;
+	max-width: 130px;
+	padding: 10px;
+	margin-left: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	border: none;
+	color: darkblue;
+	background-color: white;
+}
+
+.functionCards{
+	width: 98%;
+	display: flex;
+	margin: 10px auto;
+	justify-content: space-around;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	width: calc((100%-45px)/3);
+	height: 400px;
+	border: 1px solid lightgray;
+	margin: 7px;
+	overflow: hidden;
+}
+.card img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: -20;
+	top: -20%;
+}
+
+.card h3{
+	color: lightgray;
+	padding: 30px 0 0 0;
+	font-weight: normal;
+}
+
+.card h4 {
+	color: darkblue;
+	padding: 0 20%;
+	margin-top: -2%;
+	font-weight: bold;
+}
+
+
+.functionCards button{
+	width: 40%;
+	max-width: 100px;
+	padding: 10px 13px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	color: lightgray;
+}
+
+.subscribe {
+	margin: 80px auto 200px;
+}
+
+#question {
+	color: lightgray;
+	font-size: 20px;
+}
+
+#plan {
+	font-size: 50px;
+	margin-top: 0;
+	font-family: times new roman;
+	font-weight: bold;
+}
+
+.subscribe button {
+	margin: 10px 15px;
+	padding: 30px 10px;
+	width: 300px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.subscribe p {
+	text-align: center;
+}
+
+#foryou {
+	background-color: darkblue;
+	color: white;
+}
+
+#forbusiness {
+	color: darkblue;
+	border: 1px solid lightgray;
+	background-color: white;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 30px;
+	margin: 15px 30px;
+	border-top: 1px solid lightgray;
+	padding: 30px 10px;
+}
+
+.column {
+	color: darkblue;
+	font-size: 12px;
+}
+
+.column ul {
+	color: lightgray;
+	list-style-type: none;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.column li {
+	margin: 10px 0;
+	font-size: 15px;
+}
