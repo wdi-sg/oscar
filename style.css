@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.nav:first-child {
+	width: 70%;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	color: navy;
+}
+
+.nav:first-child > p {
+	font-size: 30px;
+	margin: 5px 20px;
+}
+
+.nav:last-child {
+	width: 25%;
+}
+
+.nav > span {
+	vertical-align: middle;
+}
+
+.nav > span:first-child {
+	padding-right: 30px;
+	color: lightgrey;
+}
+
+.nav >span:nth-child(2) {
+	padding-right: 30px;
+	color: grey;
+}
+
+.material-icons {
+	border: 1px solid lightgrey;
+	padding: 5px;
+	border-radius: 10%;
+}
+
+.background {
+	background-color: rgb(25, 25, 185);
+	padding: 75px;
+	color: white;
+}
+
+.bold {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.background > p:nth-child(3) {
+	width: 30%;
+}
+
+p:nth-child(3) > span {
+	display: block;
+}
+
+.quote {
+	width: 125px;
+	height: 40px;;
+	color: navy;
+}
+
+.learn-more {
+	box-sizing: border-box;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.learn-more > div {
+	border: 1px solid lightgrey;
+	border-radius: 2%;
+	width: calc(32% - 15px);
+	height: 350px;
+	display: inline-block;
+	margin: 0 10px;	
+}
+
+.content > p:first-child {
+	color: lightgrey;
+	margin-top: 30px;
+}
+
+.content p:nth-child(2) {
+	margin: 0 100px;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+.concierge {
+	background-image: url("images/concierge.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.doctor {
+	background-image: url("images/doctor.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.business {
+	background-image: url("images/business.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.button {
+	font-size: 14px;
+	color: lightgrey;
+	border: 1px solid lightgrey;
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.button p {
+	margin-top: 2px;
+}
+
+.member {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+.member > p:first-child {
+	color: lightgrey;
+	font-size: 25px;
+}
+
+.member > p:nth-child(2) {
+	font-size: 35px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.link{
+	width: 250px;
+	height: 50px;
+	display: inline-block;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+.link:first-child {
+	background-color: blue;
+	color: white;
+}
+
+.link:last-child {
+	color: blue;
+}
+
+.bot-nav {
+	width: 100%;
+	padding-left: 80px;
+	padding-top: 50px;
+	position: relative;
+	border-top: 1px solid lightgrey;
+	
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin-top: 15px;	
+}
+
+li a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+.foot-nav > p {
+	padding-bottom: 15px;
+}
+
+.foot-nav {
+	width: calc(19% - 10px);
+	display: inline-block;
+	vertical-align: top;
+}
+
+
