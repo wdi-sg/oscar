@@ -1,0 +1,171 @@
+.main-container {
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 40px;
+	background-color: white;
+}
+
+header {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+header div {
+	display: inline-block;
+	background-color: white;
+}
+
+.logo {
+	color: rgb( 22, 48, 196 );
+	position: relative;
+	right: 590px;
+	font-size: 50px;
+}
+
+.contact-no {
+	color: grey;
+	margin: 6px;
+	position: relative;
+	right: 30px;
+}
+
+.login {
+	color: black;
+	position: relative;
+	right: 30px;
+}
+
+.accordion-menu {
+	border: 2px solid grey;
+	height: 18px;
+	width: 18px;
+	position: relative;
+	top: 10px;
+	margin: 6px;
+	right: 30px;
+}
+
+.billboard {
+	background-color: rgb( 22, 48, 196 );
+	color: white;
+}
+
+.billboard img {
+	float: right;
+	width: 450px
+}
+
+.billboard::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.billboard-text {
+	position: relative;
+	left: 80px;
+	top: 100px;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0;
+}
+
+.billboard-text p {
+	font-size: 14px;
+}
+
+.quote-btn {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 2px;
+	color: rgb( 22, 48, 196 );
+}
+
+.learn-more {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	height: 400px;
+}
+
+.concierge, .doctor-on-call, .insurance {
+	border: 2px solid #cbccd1;
+	border-radius: 5px;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.title {
+	color: #cbccd1;
+	font-size: 12px;
+}
+
+.concierge img, .doctor-on-call img, .insurance img {
+	width: 100%;
+	height: 280px;
+	position: relative;
+	top: 155px;
+}
+
+.concierge-text, .doctor-on-call-text, .insurance-text {
+	position: absolute;
+	top: 0px;
+	margin: 10px;
+}
+
+.concierge-text {
+	left: 30px;
+}
+
+.insurance-text {
+	left: 50px;
+}
+
+.member {
+	background-color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.member p {
+	font-size: 15px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px;
+}
+
+.for-you-btn, .for-business-btn {
+	margin: 50px 10px;
+	padding: 30px 160px;
+	border: 1px solid #cbccd1;
+	border-radius: 10px;
+	font-size: 20px;
+	background-color: rgb( 22, 48, 196 );
+	color: white;
+}
+
+.for-business-btn {
+	background-color: white;
+	color: rgb( 22, 48, 196 );
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 14px;
+	margin-top: 200px;
+}
+
+a {
+	text-decoration: none;
+	color: #cbccd1;
+}
