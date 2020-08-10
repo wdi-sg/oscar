@@ -35,17 +35,47 @@ span {
     justify-content: center;
     padding: 8%;
 }
- 
+
 
 .bannerText {
     text-align: left;
     color: white;
     width: 30%;
-    
+
 }
 
 .headline {
     font-size: 80px;
      margin-bottom: 0px;
+
+}
+
+/**styles for cards **/
+.cards {
+
+	display: flex;
+
+
+}
+
+.card {
+	border: 1px red solid;
+	margin: 5px;
+	justify-content: space-between;
+	text-align: center;
+
+}
+
+.member {
+	border: 1px blue solid;
+	    text-align: center;
+    margin: 50px auto 50px auto;
+}
+
+.button {
+	border: 1px black solid;
+	width: 20%;
+	display: inline;
+	padding: 20px;
 
 }
