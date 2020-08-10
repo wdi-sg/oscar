@@ -1,0 +1,141 @@
+/** styles for header **/
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Josefin+Sans:wght@300&family=Noto+Sans+TC:wght@500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Josefin+Sans:wght@300&display=swap');
+header {
+    display: inline-flex;
+    justify-content:space-between;
+    width: 100%;
+    margin: 0 auto;
+    background-color:
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.headerRight {
+    margin: 20px;
+}
+
+.logo {
+    margin: 20px;
+    color: #0B43DB;
+    font-family:'Noto Sans TC' ;
+    font-weight: bolder;
+}
+
+span {
+    margin: 10px;
+}
+
+#number{
+    color:#969DA5;
+}
+
+.headline,
+#find {
+    font-family: 'Cardo', serif;
+}
+
+/** styles for banner **/
+.blueBanner {
+    background-color: #0939C1;
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+}
+
+
+.bannerText {
+    text-align: left;
+    color: white;
+    width: 30%;
+
+}
+
+.headline {
+    font-size: 80px;
+     margin-bottom: 0px;
+
+}
+
+#cta {
+    background-color: white;
+    color: #0939C1;
+    font-size: 20px;
+    width: 120px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+/**styles for cards **/
+.cards {
+
+	display: flex;
+
+
+}
+
+.button1 {
+    border: 1px #939BA2 solid;
+    color: #969DA5;
+    font-size: 15px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+	border: 1px #939BA2 solid;
+	margin: 5px;
+	justify-content: space-between;
+    text-align: center;
+    width: 400px;
+
+}
+
+.member {
+	
+	text-align: center;
+     margin: 50px auto 50px auto;
+}
+
+.button {
+	border: 1px#939BA2 solid;
+	width: 30%;
+	display: inline-block;
+    padding: 20px;
+    margin: 0 10px 0px 10px;
+    color:#0B43DB;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.find {
+    margin-bottom: 50px;
+}
+
+.for{
+    margin-top:50px;
+}
+
+footer {
+    margin-top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    color:#939BA2;
+
+}
+
+.list-heading {
+    font-size: 14px;
+    color: #32445C;
+}
