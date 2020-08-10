@@ -59,23 +59,49 @@ span {
 }
 
 .card {
-	border: 1px red solid;
+	border: 1px grey solid;
 	margin: 5px;
 	justify-content: space-between;
-	text-align: center;
+    text-align: center;
+    width: 400px;
 
 }
 
 .member {
-	border: 1px blue solid;
-	    text-align: center;
-    margin: 50px auto 50px auto;
+	
+	text-align: center;
+     margin: 50px auto 50px auto;
 }
 
 .button {
 	border: 1px black solid;
 	width: 20%;
 	display: inline;
-	padding: 20px;
+    padding: 20px;
 
+}
+.find {
+    margin-bottom: 50px;
+}
+
+.for{
+    margin-top:50px;
+}
+
+footer {
+    margin-top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    color:#939BA2;
+
+}
+
+.list-heading {
+    font-size: 14px;
+    color: #32445C;
 }
