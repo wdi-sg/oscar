@@ -1,5 +1,5 @@
 /** styles for header **/
-
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Josefin+Sans:wght@300&family=Noto+Sans+TC:wght@500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Josefin+Sans:wght@300&display=swap');
 header {
     display: inline-flex;
     justify-content:space-between;
@@ -8,6 +8,11 @@ header {
     background-color:
 }
 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
 .headerRight {
     margin: 20px;
 }
@@ -15,6 +20,8 @@ header {
 .logo {
     margin: 20px;
     color: #0B43DB;
+    font-family:'Noto Sans TC' ;
+    font-weight: bolder;
 }
 
 span {
@@ -25,6 +32,10 @@ span {
     color:#969DA5;
 }
 
+.headline,
+#find {
+    font-family: 'Cardo', serif;
+}
 
 /** styles for banner **/
 .blueBanner {
@@ -50,6 +61,15 @@ span {
 
 }
 
+#cta {
+    background-color: white;
+    color: #0939C1;
+    font-size: 20px;
+    width: 120px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
 /**styles for cards **/
 .cards {
 
@@ -58,8 +78,17 @@ span {
 
 }
 
+.button1 {
+    border: 1px #939BA2 solid;
+    color: #969DA5;
+    font-size: 15px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .card {
-	border: 1px grey solid;
+	border: 1px #939BA2 solid;
 	margin: 5px;
 	justify-content: space-between;
     text-align: center;
@@ -74,10 +103,15 @@ span {
 }
 
 .button {
-	border: 1px black solid;
-	width: 20%;
-	display: inline;
+	border: 1px#939BA2 solid;
+	width: 30%;
+	display: inline-block;
     padding: 20px;
+    margin: 0 10px 0px 10px;
+    color:#0B43DB;
+    font-weight: bold;
+    font-size: 20px;
+
 
 }
 .find {
