@@ -1,0 +1,51 @@
+/** styles for header **/
+
+header {
+    display: inline-flex;
+    justify-content:space-between;
+    width: 100%;
+    margin: 0 auto;
+    background-color:
+}
+
+.headerRight {
+    margin: 20px;
+}
+
+.logo {
+    margin: 20px;
+    color: #0B43DB;
+}
+
+span {
+    margin: 10px;
+}
+
+#number{
+    color:#969DA5;
+}
+
+
+/** styles for banner **/
+.blueBanner {
+    background-color: #0939C1;
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+}
+ 
+
+.bannerText {
+    text-align: left;
+    color: white;
+    width: 30%;
+    
+}
+
+.headline {
+    font-size: 80px;
+     margin-bottom: 0px;
+
+}
