@@ -1,0 +1,99 @@
+.topgrid {
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav:first-child {
+	color: blue;
+	width: 70%;
+}
+
+.nav:last-child {
+	color: grey;
+	width: 25%; 
+}
+
+span:nth-child(2) {
+	color: black;
+	width: 25%; 
+}
+
+.material-icons {
+	color:black;
+	display: inline-block;
+}
+
+.container {
+	background-color: lightblue;
+	height:500px;
+	font-size: 60px;
+	padding-left: 60px;
+	padding-top: 30px;
+}
+
+.container > p:nth-child(3) {
+	font-size: 20px;
+	width: 290px;
+}
+
+.button1 {
+	background-color: white;
+}
+
+.button2 {
+	background-color: lightblue;
+}
+
+.button2:nth-child(2) {
+	background-color: white;
+}
+
+.column {
+	display: inline-block;
+	border: 1px solid grey;
+	background-color: white;
+	text-align: center;
+	padding: 10px 10px;
+	margin: 5px;
+	height:500px;
+	width: 30%;
+	position: relative;
+}
+
+img.column {
+	position: absolute;
+}
+
+.button3 {
+	background-color: white;
+}
+
+#choice {
+	padding-left: 600px;
+}
+
+.bottomgrid {
+	display:inline-block;
+}
+
+.faq {
+	color:grey;
+	width: 250px;
+	display:inline-block;
+	margin: 10px;
+}
+
+.faq p:first-child {
+	color: black;
+}
+
+#box {
+	text-align: center;
+}
+
